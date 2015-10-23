@@ -1,0 +1,2 @@
+- All models have some unique identifying property and IEquatable implemented to simplify things.
+- Assume that there are no shared characters among users
