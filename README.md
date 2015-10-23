@@ -1,11 +1,15 @@
 # Collection pipeline kata
 Code presented is an implementation for an imaginary online fantasy game statistics service. It exposes api methods that might be used to display some fancy charts and tables to the user.
 The only executable part are tests that verify correctness of api implementation. You can use them to check whether the modifications done are correct. 
-The goal is to refactor all public methods in GameStatsApi  class from basing mainly on loops to nice declarative code using collection pipeline methods.
+
+The goal is to refactor all public methods in GameStatsApi class from basing mainly on loops to nice declarative code using collection pipeline methods.
+
+The model of the data we're working on is like below (it's also included in solution):
+![Data model used in the exercise](/CollectionPipelineKata/DataModel.png?raw=true "Data model used in the exercise")
 
 There are also some additional assumptions (also included in the example code in the notes.txt file):
-- All models have some unique identifying property and IEquatable implemented to simplify things.
-- Assume that there are no shared characters among users
+>All models have some unique identifying property and IEquatable implemented to simplify things.
+>Assume that there are no shared characters among users
 
 ### Find more about collection pipeline ###
 There are some good sources to read about new features:
